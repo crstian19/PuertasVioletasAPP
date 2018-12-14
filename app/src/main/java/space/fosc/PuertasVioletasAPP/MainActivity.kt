@@ -1,4 +1,4 @@
-package space.fosc.test
+package space.fosc.PuertasVioletasAPP
 
 import android.Manifest
 import android.content.Context
@@ -15,6 +15,7 @@ import com.nabinbhandari.android.permissions.PermissionHandler
 import com.nabinbhandari.android.permissions.Permissions
 import android.R.id.message
 import android.telephony.SmsManager
+import space.fosc.test.R
 
 
 class MainActivity : AppCompatActivity() {
