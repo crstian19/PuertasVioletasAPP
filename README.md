@@ -1,6 +1,6 @@
 # PuertasVioletasAPP
 
-This is an application, which is a project of a group of students (FOSC).
+This is a project of a group of students from a hackerspace located at UPCT (FOSC).
 
 The application is directed against gender violence, has functions to help anyone who is being mistreated.
 
