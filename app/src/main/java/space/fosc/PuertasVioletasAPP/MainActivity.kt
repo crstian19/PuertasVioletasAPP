@@ -15,6 +15,10 @@ import com.nabinbhandari.android.permissions.PermissionHandler
 import com.nabinbhandari.android.permissions.Permissions
 import android.R.id.message
 import android.telephony.SmsManager
+import android.view.View
+import kotlinx.android.synthetic.main.pag1.*
+import kotlinx.android.synthetic.main.pag2.*
+import kotlinx.android.synthetic.main.pag3.*
 import space.fosc.test.R
 
 
@@ -26,12 +30,21 @@ class MainActivity : AppCompatActivity() {
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
             R.id.navigation_home -> {
+                pag1.visibility = View.VISIBLE
+                pag2.visibility = View.INVISIBLE
+                pag3.visibility = View.INVISIBLE
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_dashboard -> {
+                pag1.visibility = View.INVISIBLE
+                pag2.visibility = View.VISIBLE
+                pag3.visibility = View.INVISIBLE
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_notifications -> {
+                pag1.visibility = View.INVISIBLE
+                pag2.visibility = View.INVISIBLE
+                pag3.visibility = View.VISIBLE
                 return@OnNavigationItemSelectedListener true
             }
         }

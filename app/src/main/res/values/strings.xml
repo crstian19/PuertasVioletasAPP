@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Test</string>
+    <string name="app_name">Puertas Violetas</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_dashboard">Cómo actuar</string>
+    <string name="title_notifications">Ajustes</string>
 </resources>
