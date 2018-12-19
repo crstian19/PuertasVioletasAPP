@@ -10,8 +10,7 @@
 
     <include layout="@layout/pag1" android:visibility="visible"/>
     <include layout="@layout/pag2" android:visibility="invisible"/>
-    <include layout="@layout/pag3" android:layout_width="wrap_content" android:layout_height="wrap_content"
-             android:visibility="invisible"/>
+    <include layout="@layout/pag3" android:visibility="invisible"/>
     <android.support.design.widget.BottomNavigationView
             android:id="@+id/navigation"
             android:layout_width="0dp"
