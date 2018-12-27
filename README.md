@@ -1,4 +1,5 @@
 # PuertasVioletasAPP
+![](https://github.com/Crstian19/PuertasVioletasAPP/blob/master/version-v0.0.1-green.svg)
 
 This is a project of a group of students from a hackerspace located at UPCT (FOSC).
 
